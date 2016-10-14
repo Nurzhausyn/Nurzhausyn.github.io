@@ -101,7 +101,20 @@ ul.work li a:hover, ul.work li a:hover h4 { color:#ffffff; }
 /*
 	Footer
 */
-#footer {
+.outside_container {
+	position: relative;
+min-height: 100%;
+min-width: 970px;
+height: auto!important;
+}
+.outside_container:after {
+	content: "";
+	height: 80px;
+	margin-top: -80px;
+}
+#footer {min-width: 970px;
+	height: 80px
+	margin-top -80px;
 	border-top:1px solid #3f2324;
 	padding:30px 50px 80px 50px;
 	color:#674f5d;
