@@ -14,7 +14,7 @@ nav ul li {float:left;margin:17px 20px;font-size:20px;font-family:'Georgia';font
 nav ul li a {color:#f7f6c5;text-decoration:none;}
 nav ul li a:hover {text-decoration:underline;}
 
-.header_img {height:435px;background-color:#759fff;border-radius:0px 0px 8px 8px;margin-bottom:15px;}
+.header_img {text-align: center;height:435px;background-color:#759fff;border-radius:0px 0px 8px 8px;margin-bottom:15px;}
 
 #content {clear:both;}
 #content h1 {font-size:28px;font-family:'Georgia';font-style:italic;font-weight:normal;margin-bottom:20px;}
