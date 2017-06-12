@@ -3,9 +3,9 @@ browserSync = require('browser-sync');
 
 gulp.task('server', function (){
 	browserSync({
-		port: 9000,
+		port: 8000,
 		server: {
-			baseDir: 'app'
+			baseDir: 'Nurzhausyn.github.io'
 		}
 	});
 });
